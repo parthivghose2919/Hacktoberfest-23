@@ -1,11 +1,11 @@
 body {
-    background-color: #1f242d;
+    background-color: #343969;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 .navbar {
-    background-color: #323946;
+    background-color: #1d1d11;
     color: #0ef;
     overflow: hidden;
 }
@@ -14,17 +14,23 @@ body {
     display: block;
     color: #0ef;
     text-align: center;
-    padding: 5px 6px;
+    padding: 10px;
     text-decoration: none;
+    font-size: 24px;
+    margin-top: 5px;
 }
 .navbar a:hover {
     background-color: #0ef;
     color: #323946;
+    border-radius: 10px;
 }
 .navbar .logo {
     float: left;
     padding: 10px 0;
     margin-left: 10px;
+}
+.navbar .logo:hover {
+    background-color: #1d1d11;
 }
 .buttons-container {
     text-align: center;
@@ -32,8 +38,8 @@ body {
     margin-bottom: 20px;
 }
 .round-button {
-    background-color: #0ef;
-    color: #323946;
+    background-color: #222546;
+    color: white;
     border: none;
     border-radius: 20px;
     padding: 20px 30px;
@@ -52,7 +58,7 @@ body {
     border-radius: 50%;
 }
 .rectangular-area {
-    background-color: #323946;
+    background-color: #222546;
     text-align: center;
     overflow: auto;
 }
@@ -81,11 +87,12 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .dashboard-bar {
-    background: linear-gradient(to right, #0ef, #0ef);
-    color: #323946;
+    background: #222546;
+    color: white;
     text-align: center;
     padding: 20px 0;
     border-radius: 20px;
+    margin: 16px;
 }
 .dashboard-bar h1 {
     margin: 0;
@@ -99,7 +106,10 @@ body {
 }
 /* Footer styles */
 .footer {
-    background-color: #323946;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background-color: #1d1d11;
     color: #fff;
     text-align: center;
     padding: 10px 0;
