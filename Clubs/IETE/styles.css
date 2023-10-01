@@ -1,8 +1,12 @@
 *{
     margin: 0;
 }
+body {
+    background-color: #343969;
+    font-family: Arial, sans-serif;
+}
 .nav-bar{
-    background-color: #323946;
+    background-color: #1d1d11;
     width: 100vw;
     height: 50px;
     display: flex;
@@ -34,12 +38,14 @@ a:hover{
     color: #323946;
 }
 .club-name{
-    /* background-color: rgb(104, 168, 241); */
+    background-color: #222546;
     /* border: 2px solid black; */
     height: 180px;
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
+    color: white;
     /* font-size: 10px; */
 }
 .icon{
@@ -47,7 +53,7 @@ a:hover{
     /* border: 2px solid black; */
     border-radius: 75px;
     margin: 8px;
-    padding: 20px;
+    padding: 10px 20px 20px 20px;
     height: 80px;
     width: 100px;
     font-size: 20px;
@@ -79,14 +85,14 @@ a:hover{
 }
 .info{
     text-align: center;
-    background-image: url(https://th.bing.com/th/id/OIP.ngnuoA52mgI3BnjyFifMHgHaHa?pid=ImgDet&rs=1);
-    /* background-color: lightgray; */
-    border: 2px solid black;
-    border-radius: 80px;
+    /* background-image: url(https://th.bing.com/th/id/OIP.ngnuoA52mgI3BnjyFifMHgHaHa?pid=ImgDet&rs=1); */
+    background-color: lightgray;
+    /* border: 2px solid black; */
+    border-radius: 50px;
     margin: 30px 30px 0 75px;
-    padding: 5px 0 0 30px;
+    padding: 10px 10px;
     height: 200px;
-    width: 800px;
+    width: 1080px;
 }
 .info h2{
     margin-bottom: 10px;
@@ -95,27 +101,44 @@ a:hover{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .details{
-    background-image: url(https://th.bing.com/th/id/OIP.ngnuoA52mgI3BnjyFifMHgHaHa?pid=ImgDet&rs=1);
-    /* background-color: lightgray; */
-    border: 2px solid black;
-    border-radius: 80px;
+    /* background-image: url(https://th.bing.com/th/id/OIP.ngnuoA52mgI3BnjyFifMHgHaHa?pid=ImgDet&rs=1); */
+    background-color: lightgray;
+    /* border: 2px solid black; */
+    border-radius: 50px;
     margin: 30px 75px 0 30px;
-    padding: 5px 0 0 50px;
+    padding: 10px 10px;
     height: 200px;
-    width: 800px;
+    width: 1000px;
+}
+.details h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .ne{
     text-align: center;
-    /* background-color: lightgray; */
-    border: 2px solid black;
-    border-radius: 80px;
+    background-color: lightgray;
+    /* background-image: url(htrtps://th.bing.com/th/id/OIP.ngnuoA52mgI3BnjyFifMHgHaHa?pid=ImgDet&rs=1); */
+    /* border: 2px solid black; */
+    border-radius: 50px;
     margin: 0px 75px 0 75px;
     padding: 20px;
     height: 90px;
-    width: 85%;
 }
 .ne h1{
     font-size: 20px;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Footer styles */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background-color: #1d1d11;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
