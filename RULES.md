@@ -7,7 +7,9 @@ To earn your Hacktoberfest tee or tree reward, you must register and make four v
 
 - <b>Those who have not registered yet for hacktoberfest can get themselves registered <a href="https://hacktoberfest.com/auth/"> here .</a></b>
 
-- <b>All issues must be Resolved within 5 days time or the PR will be closed.
+- <b>All issues must be Resolved within 5 days time or the PR will be closed.</b>
+
+- <b>All the changes must be in accordance with clubs associated to BIT Mesra only.</b>
 
 # Prizes 🏆
 
