@@ -51,6 +51,6 @@ Make sure to visit RULES.md file to know what are the rules and regulation you n
 
 **(f) Try your best to fix the issue (Good Luck! =))**
 
-**(g) Once the issue is fixed, just give us a Pull Request, and you are done!! <span style="color:FFD93D">~~Happy Hacking!!~~</span>** 
+**(g) Once the issue is fixed, just give us a Pull Request, and you are done!! <span style="color:FFD93D"><i>Happy Hacking!!</i></span>** 
 
 **Congratulations !!** **🥳**  
