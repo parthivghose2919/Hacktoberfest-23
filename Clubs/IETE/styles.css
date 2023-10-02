@@ -2,7 +2,7 @@
     margin: 0;
 }
 body {
-    background-color: #343969;
+    background-color:#1d1d11;
     font-family: Arial, sans-serif;
 }
 .nav-bar{
@@ -38,7 +38,7 @@ a:hover{
     color: #323946;
 }
 .club-name{
-    background-color: #222546;
+    background-color: rgba(166, 4, 206, 0.774);
     /* border: 2px solid black; */
     height: 180px;
     width: 100%;
